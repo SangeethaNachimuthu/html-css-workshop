@@ -1,9 +1,25 @@
 #logo {
     height: 180px;
+    width: 80%;
+}
+
+.product {
+    display: flex;
+    gap: 50px;
 }
 
 #productImage {
     height: 400px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.prodDetails {
+    font-size: 18px;
 }
 
 #submitBtn, #resetBtn {
@@ -25,4 +41,14 @@
 
 .fa-solid  {
     color: gold;
+}
+
+.retPol {
+    font-size: 18px;
+    width: 60%;
+}
+
+footer {
+    background-color: bisque;
+    padding: 5px 10px;
 }
