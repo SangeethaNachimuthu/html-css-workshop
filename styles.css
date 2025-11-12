@@ -6,11 +6,19 @@
     height: 400px;
 }
 
-#submitBtn {
-    font-size: medium;
+#submitBtn, #resetBtn {
+    font-size: 14px;
     background-color: aqua;
-    padding: 10px 20px;
-    width: 150px;
+    padding: 5px 20px;
+    width: 100px;
     border: 1px solid gray;
     border-radius: 10px;
+}
+
+.orderForm th, td{
+    padding: 10px;
+}
+
+.orderForm th {
+    text-align: left;
 }
