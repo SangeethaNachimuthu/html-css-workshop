@@ -3,6 +3,9 @@
     <head>
         <title>Product Shipping Information</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        >
     </head>
     <body>
         <!-- Header Section -->
@@ -12,32 +15,46 @@
         </header>
 
         <!-- Main Section -->
-        <body>
-            <h1>Product Details</h1>
-            <h4>Embroidered Net Flaired Sleeve Less Baby Knee Length Girl's Frock</h4>
-            <img id="productImage" src="images/baby-girl-dress.jpg" alt="Image of the product">
-            <h3>Product Description</h3>
-            <ul>
-                <li>Fabric: Crafted from soft premium quality net fabric which ensures 
-                    comforte for all day long and Zip closure.</li>
-                <li>Sleeve: Sleeveless | Closure: Zipper | Item Length: Knee-lengh.</li>
-                <li>Its Ideal for daily wear, all party occasions, birthday, festive and gifting.</li>
-                <li>Color : Purple.</li>
-                <li>Fit Type : Regular Fit With Zip Closure.</li>
-            </ul>
-            <h3>Shipping Information</h3>
-            <ul>
-                <li>Dispatch: Within 2-3 days</li>
-                <li>Delivery time: 1-10 business days</li>
-                <li>Charges: Based on the location</li>
-            </ul>
-            <h3>Return Policy</h3>
-            <p>While unpacking the product, Kindly capture a video(without pause) of the opening 
-                of the product. This helps in making the initiation of a return if in case you 
-                are receiving a damaged product. Please note that a return will only be initiated 
-                with the opening video. Requesting to please understand and cooperate.</p>
+        <main>
+            <!-- Product Details -->
+            <section>
+                <h1>Product Details</h1>
+                <h4>Embroidered Net Flaired Sleeve Less Baby Knee Length Girl's Frock</h4>
+                <img id="productImage" src="images/baby-girl-dress.jpg" alt="Image of the product">
+            </section>
+            
+            <!-- Product Description -->
+            <section>
+                <h3>Product Description</h3>
+                <ul>
+                    <li>Fabric: Crafted from soft premium quality net fabric which ensures 
+                        comforte for all day long and Zip closure.</li>
+                    <li>Sleeve: Sleeveless | Closure: Zipper | Item Length: Knee-lengh.</li>
+                    <li>Its Ideal for daily wear, all party occasions, birthday, festive and gifting.</li>
+                    <li>Color : Purple.</li>
+                    <li>Fit Type : Regular Fit With Zip Closure.</li>
+                </ul>
+            </section>
 
-            <br>
+            <!-- Shipping Info -->
+            <section>
+                <h3>Shipping Information</h3>
+                <ul>
+                    <li>Dispatch: Within 2-3 days</li>
+                    <li>Delivery time: 1-10 business days</li>
+                    <li>Charges: Based on the location</li>
+                </ul>
+            </section>
+
+            <!-- Return Policy -->
+            <section>
+                <h3>Return Policy</h3>
+                <p>While unpacking the product, Kindly capture a video(without pause) of the opening 
+                    of the product. This helps in making the initiation of a return if in case you 
+                    are receiving a damaged product. Please note that a return will only be initiated 
+                    with the opening video. Requesting to please understand and cooperate.</p>
+            </section>
+
             <!-- Order Form -->
             <div>
                 <h3>Order the Product</h3>
@@ -60,6 +77,17 @@
                             <td><input type="number" id="contactNo"></td>
                         </tr>
                         <tr>
+                            <th><label for="size">Size:</label></th>
+                            <td>
+                                <select>
+                                    <option>0-6 Months</option>
+                                    <option>6-12 Months</option>
+                                    <option>12-24 Months</option>
+                                    <option>2-3 Years</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
                             <th><label for="quantity">Quantity:</label></th>
                             <td>
                                 <select>
@@ -72,12 +100,55 @@
                             </td>
                         </tr>
                         <tr>
+                            <th><label for="payment">Payment Method:</label></th>
+                            <td>
+                                <select>
+                                    <option>Card Payment</option>
+                                    <option>NetBanking</option>
+                                    <option>Cash On Delivery</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
                             <td><input type="submit" id="submitBtn" value="Submit"></td>
                             <td><input type="reset" id="resetBtn" value="Reset"></td>
                         </tr>
                     </table>
                 </form>
             </div>
-        </body>
+
+            <!-- Customer Reviews -->
+            <section>
+                <h3>Customer Reviews</h3>
+                <p> <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    Raja S <br>
+                    Very Nice Product. Same as shown in image. Quality is good.
+                </p>
+                <p> <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    Rose Mary  <br>
+                    Good product. Suits well.
+                </p>
+            </section>
+        </main>
+        <br>
+
+        <!-- Footer Section -->
+        <footer>
+            <h4>Contact Us</h4>
+            <address>
+                35, Ram Nagar,
+                Coimbatore,
+                Tamilnadu. <br>
+                +91 7890234512 <br>
+                sri.boutique@gmail.com
+            </address>
+            <p>© 2025, Sri Boutique. All Rights Reserved.</p>
+        </footer>
     </body>
 </html>
