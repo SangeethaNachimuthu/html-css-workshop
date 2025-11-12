@@ -5,3 +5,12 @@
 #productImage {
     height: 400px;
 }
+
+#submitBtn {
+    font-size: medium;
+    background-color: aqua;
+    padding: 10px 20px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
