@@ -29,9 +29,9 @@
     font-weight: bold;
 }
 
-#submitBtn, #resetBtn {
+#submitBtn, #resetBtn, #subscribeBtn {
     font-size: 14px;
-    background-color: aqua;
+    background-color: rgb(133, 238, 238);
     padding: 5px 20px;
     width: 100px;
     border: 1px solid gray;
@@ -67,4 +67,23 @@
 footer {
     background-color: bisque;
     padding: 5px 10px;
+}
+
+footer h4 {
+    color: rgb(212, 93, 132);
+}
+
+.footerSection {
+    display: flex;
+    gap: 90px;
+}
+
+.newsletter {
+    width: 20%;
+}
+
+#email {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
